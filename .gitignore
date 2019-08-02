@@ -1,0 +1,5 @@
+node_modules
+*-lock.json
+*.log
+.cache
+dist
