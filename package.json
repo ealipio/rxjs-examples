@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel index.html -p 8080",
     "build": "parcel build index.html"
   },
   "keywords": [
@@ -14,5 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2",
+    "rxjs-compat": "^6.5.2"
   }
 }
